@@ -1,7 +1,18 @@
 /* === Imports === */
-
+import { initializeApp } from "firebase/app";
 /* === Firebase Setup === */
+const firebaseConfig = {
+  apiKey: "AIzaSyCGze4NDEYJ_D7ZQjjRgdYdpuzk6FcIJLA",
+  authDomain: "mapachers-f04c0.firebaseapp.com",
+  projectId: "mapachers-f04c0",
+  storageBucket: "mapachers-f04c0.appspot.com",
+  messagingSenderId: "139317885920",
+  appId: "1:139317885920:web:0ffd05e7fb9f30b482c985",
+  measurementId: "G-YG8EBRR6D9"
+};
 
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 /* === UI === */
 
 /* == UI - Elements == */
